@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAuB;EACrB,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;;;ACH7B,KAAK;EACH,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,ECFU,yBAAyB",
+"sources": ["../sass/abstracts/_placeholders.sass","../sass/layouts/_header.sass","../sass/abstracts/_variables.sass"],
+"names": [],
+"file": "main.css"
+}
