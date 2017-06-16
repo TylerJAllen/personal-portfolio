@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body, .heroImage {
+.heroImage {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,12 +19,15 @@ body, .heroImage {
   src: url("../fonts/Lobster-Regular.ttf");
 }
 .navBar {
-  height: 15%;
-  min-height: 100px;
-  width: 90%;
+  height: 5vh;
+  width: 100%;
   margin: 0 auto;
+}
+.navBar ul {
+  width: 200px;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .hero {
@@ -33,8 +36,8 @@ body, .heroImage {
 }
 
 .heroImage {
-  height: 70%;
-  width: 90%;
+  height: 45%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -47,36 +50,68 @@ body, .heroImage {
   text-align: right;
 }
 
-body {
+.heroContent {
+  height: 55%;
+  width: 100%;
+  background-color: #fbd7b2;
+}
+
+.aboutMe {
+  height: 250px;
+  width: 100%;
+  margin: 25px 0;
+  display: flex;
+}
+
+.leftBox, .rightBox {
+  flex-basis: 50%;
+}
+
+.rightBox {
+  padding: 20px;
+  height: 100%;
+}
+
+.work {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blackBar {
   background-color: #000;
-  background-image: url("../images/body2.gif");
-  background-attachment: fixed;
+  height: 50px;
 }
 
 .hero h1 {
-  color: #fff;
-  font-size: 5vw;
+  font-size: 30px;
   letter-spacing: 5px;
-  font-family: lobster;
+  font-family: trinigan;
 }
 .hero h2 {
-  color: #fff;
-  font-size: 2vw;
+  font-size: 20px;
   letter-spacing: 3px;
-  font-family: lobster;
+  font-family: trinigan;
 }
 
 .heroImage {
-  background-image: url("../images/hero2.png");
-  border: 10px solid #799e21;
-  border-radius: 45%;
+  background-image: url("../images/hero.png");
 }
 .heroImage h2 {
-  color: #fff;
+  color: #fbd7b2;
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px #000;
   font-size: 3vw;
   letter-spacing: 5px;
   font-family: trinigan;
+}
+
+.rightBox {
+  background-color: #ffae5b;
 }
 
 /*# sourceMappingURL=main.css.map */
