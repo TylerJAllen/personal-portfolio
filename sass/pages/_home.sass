@@ -1,8 +1,9 @@
 body
-  // background-color: $bodyColor
+  background-color: $bodyColor
   // background-image: $bodyBackgroundImage
   // @extend %backgroundImageStyling
   // background-attachment: fixed
+  color: #fbd7b2
 
 .hero
   h1
@@ -27,4 +28,41 @@ body
     font-family: trinigan
 
 .rightBox
-  background-color: #ffae5b
+  // background-color: #ffae5b
+  background-color: #6C6917
+
+#work
+  // background-color: #a7e08f
+  background-color: #8F3631
+
+.panelImage
+  background-color: #ffffff
+  @extend %backgroundImageStyling
+
+#webDesignRow1
+  > .panel:first-child .panelImage
+    background-image: $webDesignImage1
+  > .panel:nth-child(2) .panelImage
+    background-image: $webDesignImage2
+  > .panel:nth-child(3) .panelImage
+    background-image: $webDesignImage3
+
+#webDesignRow2
+  > .panel:first-child .panelImage
+    background-image: $webDesignImage4
+  > .panel:nth-child(2) .panelImage
+    background-image: $webDesignImage5
+  > .panel:nth-child(3) .panelImage
+    background-image: $webDesignImage6
+
+.identityDesign > .panel:first-child .panelImage
+  background-image: $identityDesignImage1
+
+#contact
+  // background-color: #53a8c1
+  background-color: #462560
+  h1
+    text-shadow: 6px 6px 7px black
+
+.infoContainer
+  text-shadow: 6px 6px 7px black
